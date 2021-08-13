@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <link rel="stylesheet" href="estilo18.css">
+    
+</head>
+<body>
+    <form action="blabla.php" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="pais" value="BR">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">
+                Primeiro nome: <br>
+                <input type="text" name="name" id="nome" required minlength="2"> 
+            </label><br>
+            <label for="sob">
+                Sobrenome: <br>
+                <input type="text" name="sobre" id="sob" required minlength="2">
+            </label><br>
+            <label for="idade">
+                Ano de Nascimento: <br>
+                <input type="date" name="ano" id="nasc" required max="2021-08-12" >
+            </label><br>
+            <label for="img">
+                Foto: <br>
+                <input type="file" name="foto" id="img" accept="image/*">
+            </label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Profissionais </legend>
+            <label for="empresa">
+                Nome da empresa:<br>
+                <input type="text" name="empre" id="empresa">
+            </label><br>
+            <label for="cargo">
+                Cargo na empresa: <br>
+                <input type="text" name="cargo" id="cargo">
+            </label>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar"><br>
+
+    </form>
+
+
+</body>
+</html>
