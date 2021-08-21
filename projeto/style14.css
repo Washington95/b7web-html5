@@ -1,4 +1,4 @@
- *{
+*{
     box-sizing: border-box;
 }
 body{
@@ -8,7 +8,7 @@ body{
 
 
  label{
-    display: block;
+    display: inline;
     margin-top: 20px; 
 }
 
