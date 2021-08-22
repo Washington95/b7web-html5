@@ -1,0 +1,50 @@
+body{
+    background-color:#00ffff ;
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+@media(min-width: 700px) and (max-width: 1000px){
+    body{
+        background-color: #0000ff;
+        
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 350px) and (max-width: 700px){
+    body{
+        background-color: #ff0000;
+        
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+@media(min-width: 0px) and (max-width: 350px){
+    body{
+        background-color: #a058e2;
+        
+    }
+    h1{
+        font-size: 10px;
+    }
+}
+
+/* MEDIA PARA IMPRESSÃO 
+
+@media only print{
+    h1{
+        font-size: 20px;
+        font-weight: normal;
+        
+
+    }
+} */
