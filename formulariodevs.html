@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para Devs</title>
+    <link rel="stylesheet" href="estilodev.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Cadastro de Devs</h1>
+        <h2 id="info">Insira suas informações</h2>
+        <form action="">
+            <div class="dados">
+                <label >
+                    Nome:
+                    <input type="text" name="nome" id="nome" autocomplete="off">
+                </label>
+                <label >
+                    Sobrenome:
+                    <input type="text" name="sobrenome" id="sobrenome" autocomplete="off">
+                </label> <br> <br> 
+                <label>
+                    E-mail:
+                    <input type="email" name="email" id="email" placeholder="Digite seu E-mail" autocomplete="off" >
+                </label>
+            </div>
+            <div class="hab">
+                <h2 class="ap">De qual lado da aplicação você desenvolve ?</h2>
+                <label> 
+                    <input type="checkbox">
+                    Front-End
+                </label> <br><br>
+                <label>
+                    <input type="checkbox">
+                    Back-End
+                </label> <br><br>
+                <label>
+                    <input type="checkbox">
+                    Full-Stack
+                </label> <br><br>
+                <label>
+                    <p class="ap">Senioridade <br></p>
+                    
+                    <select name="categoria">
+                        <option value="jr">Júnior</option>
+                        <option value="pl">Pleno</option>
+                        <option value="sr">Senior</option>
+                    </select>
+                </label> <br><br>
+                <label>
+                    <p class="ap">Seleciona as tecnoligias que você utiliza <br><br></p>
+                    <input type="checkbox"> HTML
+                    <input type="checkbox"> CSS
+                    <input type="checkbox"> JAVASCRIPT
+                    <input type="checkbox"> PHP
+                    <input type="checkbox"> C#
+                    <input type="checkbox"> PYTHON
+                    <input type="checkbox" > JAVA
+                </label> <br><br>
+           
+                <label>
+                    <p class="ap">Conte um pouco mais da sua experiência</p> <br>
+                    <textarea name="com" id="com" cols="60" rows="9"></textarea>
+                </label> <br><br>
+               <button id="botao">Cadastrar</button>
+            </div>   
+        </form>
+    </div>
+</body>
+</html>
