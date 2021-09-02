@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    height: 500px;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 195, 195);
+    margin: 10px;
+}
+
+.container div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
